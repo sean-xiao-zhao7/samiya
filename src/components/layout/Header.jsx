@@ -5,11 +5,21 @@ const Header = () => {
         <header>
             <img src={samiyaLogo} alt="Samiya logo" />
             <ul>
-                <li>About Us</li>
-                <li>Pray</li>
-                <li>Projects</li>
-                <li>Donate</li>
-                <li>Contact</li>
+                <li>
+                    <a href="">About Us</a>
+                </li>
+                <li>
+                    <a href="">Pray</a>
+                </li>
+                <li>
+                    <a href="">Projects</a>
+                </li>
+                <li>
+                    <a href="">Donate</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
             </ul>
         </header>
     );
