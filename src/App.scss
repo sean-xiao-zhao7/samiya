@@ -5,3 +5,7 @@
 @use 'styles/layout/footer.scss';
 // pages
 @use 'styles/pages/home.scss';
+
+body {
+    background-color: black;
+}
