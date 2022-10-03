@@ -1,4 +1,7 @@
 // variables
 @use 'styles/variables/colors.scss';
-// sections
-@use 'styles/layout/header.scss'
+// layout
+@use 'styles/layout/header.scss';
+@use 'styles/layout/footer.scss';
+// pages
+@use 'styles/pages/home.scss';

@@ -3,7 +3,7 @@ import Footer from "../layout/Footer";
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
             <Header />
             <div id="home_body">Home page</div>
             <Footer />
