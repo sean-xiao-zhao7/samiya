@@ -7,17 +7,18 @@ import homeWide from "../../assets/photos/home_wide.png";
 const Home = () => {
     return (
         <div id="home">
-            <Header />
-            <div id="home_body">
-                <section id="hero">
-                    <img src={homeWide} alt="samiya people" />
-                    <section>
-                        Samiya exists to help underprivileged children, youth,
-                        and women to rise out of abject poverty and to become
-                        kingdom minded Christians who successfully contribute to
-                        God's global economy.
+            <div id="home-first">
+                <Header />
+                <div id="home_body">
+                    <section id="hero">
+                        <img src={homeWide} alt="samiya people" />
+                        <section>
+                            Samiya International is a global mission agency
+                            committed to church planting among the poor and the
+                            marginalized in unreached nations around the world.
+                        </section>
                     </section>
-                </section>
+                </div>
             </div>
             <Footer />
         </div>
