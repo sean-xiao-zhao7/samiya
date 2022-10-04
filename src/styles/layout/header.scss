@@ -2,7 +2,7 @@
 
 header {
     padding-left: 5%;
-    background-color: colors.$primary-color;
+    background: linear-gradient(to right, colors.$primary-color, colors.$secondary-color, colors.$primary-color);
     display: flex;
     flex-direction: row;
 
@@ -42,7 +42,7 @@ header {
             }
 
             &:hover {
-                background-color: #5a5150;
+                background-color: colors.$tiertiary-color;
             }
         }
     }
