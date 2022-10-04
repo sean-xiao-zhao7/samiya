@@ -16,13 +16,28 @@
 
         section {
             color: white;
-            font-size: 2rem;
-            padding: 60px 10%;
+            font-size: 2.2rem;
+            padding: 70px 5% 120px 5%;
             background-color: colors.$four-color-transparent;
             position: absolute;
-            bottom: 0;
+            bottom: 20vh;
+            left: 5vh;
             font-weight: bold;
             line-height: 1.5;
+            width: 55%;
+        }
+
+        & button {
+            position: absolute;
+            background-color: #549152;
+            border: 0;
+            color: white;
+            padding: 20px 30px;
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            right: 1rem;
+            bottom: 1rem;
         }
     }
 }

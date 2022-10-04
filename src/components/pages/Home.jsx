@@ -16,6 +16,7 @@ const Home = () => {
                             Samiya International is a global mission agency
                             committed to church planting among the poor and the
                             marginalized in unreached nations around the world.
+                            <button type="button">Learn more</button>
                         </section>
                     </section>
                 </div>
