@@ -26,15 +26,15 @@
         width: 55%;
     }
 
-    & button {
+    & button:nth-child(1) {
         position: absolute;
-        background-color: #549152;
-        border: 0;
-        color: white;
-        padding: 20px 30px;
-        font-size: 2rem;
-        font-weight: bold;
         right: 1rem;
+        bottom: 1rem;
+    }
+
+    & button:nth-child(2) {
+        position: absolute;
+        right: 17rem;
         bottom: 1rem;
     }
 }
@@ -42,6 +42,20 @@
 #home {
     color: white;
     position: relative;
+
+    & button {
+        background-color: colors.$tiertiary-color;
+        border: 0;
+        color: white;
+        padding: 20px 30px;
+        font-size: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            background-color: transparentize(colors.$tiertiary-color, 0.2);
+        }
+    }
 
     #intro {
         display: flex;
@@ -54,7 +68,7 @@
         }
 
         img {
-            width: 50%;
+            width: 100vw;
             object-fit: cover;
             padding-top: 1rem;
         }
@@ -79,6 +93,30 @@
             margin: 10vh;
             padding: 10vh;
             width: 60%;
+        }
+
+        & button {
+            position: absolute;
+            right: 1rem;
+            bottom: 1rem;
+        }
+    }
+
+    #newsletter {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        &>section {
+            margin: 10vh;
+            font-size: 2rem;
         }
     }
 }

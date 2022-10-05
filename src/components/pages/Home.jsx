@@ -3,6 +3,7 @@ import Footer from "../layout/Footer";
 
 // images
 import verticalSitting from "../../assets/photos/vertical_sitting.png";
+import verticalSittingYellow from "../../assets/photos/vertical_sitting_yellow.png";
 import homeWide from "../../assets/photos/home_wide.png";
 import horizontalSitting from "../../assets/photos/horizontal_sitting.png";
 
@@ -18,6 +19,7 @@ const Home = () => {
                         committed to church planting among the poor and the
                         marginalized in unreached nations around the world.
                         <button type="button">Learn more</button>
+                        <button type="button">Support us</button>
                     </section>
                 </section>
             </div>
@@ -55,8 +57,22 @@ const Home = () => {
                         their distress and to keep oneself from being polluted
                         by the world.”
                     </h1>
+                    <button type="button">Support us!</button>
                 </section>
                 <img src={horizontalSitting} alt="samiya people" />
+            </section>
+            <section id="newsletter">
+                <section>
+                    <h1>Follow us!</h1>
+                    <h1>Sign up for Samiya International's newsletter:</h1>
+                    <h1>Updates from our missions agency.</h1>
+                    <h1>
+                        Prayers for supporting Samiya International's church
+                        planting efforts worldwide.
+                    </h1>
+                    <button type="button">Subscribe</button>
+                </section>
+                <img src={verticalSittingYellow} alt="samiya people sitting" />
             </section>
             <Footer />
         </div>

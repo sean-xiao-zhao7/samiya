@@ -6,10 +6,10 @@ const Footer = () => {
             <img src={samiyaLogo} alt="Samiya logo" />
             <ul>
                 <li>
-                    <a href="">About Us</a>
+                    <a href="">About Samiya</a>
                 </li>
                 <li>
-                    <a href="">Pray</a>
+                    <a href="">Pray with us</a>
                 </li>
                 <li>
                     <a href="">Projects</a>
