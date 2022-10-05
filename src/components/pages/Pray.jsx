@@ -3,7 +3,7 @@ import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 
 // images
-import homeWide from "../../assets/photos/horizontal_praying.png";
+import horizontalPlaying from "../../assets/photos/horizontal_praying.png";
 
 const Pray = () => {
     return (
@@ -11,7 +11,7 @@ const Pray = () => {
             <div id="pray-first">
                 <Header />
                 <section id="hero">
-                    <img src={homeWide} alt="samiya people" />
+                    <img src={horizontalPlaying} alt="samiya people" />
                     <section>
                         <h1>Prayer is Vital to Global Missions</h1>
                         Prayer for global missions changes our hearts as we

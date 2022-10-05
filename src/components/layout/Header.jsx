@@ -32,13 +32,13 @@ const Header = ({ introElementRef }) => {
                     <Link to={"/pray"}>Pray</Link>
                 </li>
                 <li>
-                    <a href="#">Projects</a>
+                    <Link to={"/projects"}>Projects</Link>
                 </li>
                 <li>
-                    <a href="#">Donate</a>
+                    <Link to={"/donate"}>Donate</Link>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <Link to={"/contact"}>Contact Us</Link>
                 </li>
             </ul>
         </header>
