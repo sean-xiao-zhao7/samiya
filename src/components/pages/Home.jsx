@@ -1,3 +1,6 @@
+import { useRef } from "react";
+
+// comps
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 
@@ -8,10 +11,12 @@ import homeWide from "../../assets/photos/home_wide.png";
 import horizontalSitting from "../../assets/photos/horizontal_sitting.png";
 
 const Home = () => {
+    const introElementRef = useRef(null);
+
     return (
         <div id="home">
             <div id="home-first">
-                <Header />
+                <Header introElementRef={introElementRef} />
                 <section id="hero">
                     <img src={homeWide} alt="samiya people" />
                     <section>
@@ -23,7 +28,7 @@ const Home = () => {
                     </section>
                 </section>
             </div>
-            <section id="intro">
+            <section id="intro" ref={introElementRef}>
                 <img src={verticalSitting} alt="samiya people sitting" />
                 <section>
                     <h1>
