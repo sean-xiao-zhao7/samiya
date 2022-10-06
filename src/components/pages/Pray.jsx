@@ -1,3 +1,5 @@
+import { ScrollRestoration } from "react-router-dom";
+
 // comps
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
@@ -80,6 +82,7 @@ const Pray = () => {
                 </section>
             </section>
             <Footer />
+            <ScrollRestoration />
         </div>
     );
 };

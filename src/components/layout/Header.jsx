@@ -16,11 +16,11 @@ const Header = ({ introElementRef }) => {
                     });
                 }}
             >
-                About Us
+                About
             </a>
         );
     } else {
-        aboutUsEl = <Link to={"/"}>About Us</Link>;
+        aboutUsEl = <Link to={"/"}>About</Link>;
     }
 
     return (
@@ -38,7 +38,7 @@ const Header = ({ introElementRef }) => {
                     <Link to={"/donate"}>Donate</Link>
                 </li>
                 <li>
-                    <Link to={"/contact"}>Contact Us</Link>
+                    <Link to={"/contact"}>Contact</Link>
                 </li>
             </ul>
         </header>

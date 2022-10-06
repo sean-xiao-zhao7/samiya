@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import samiyaLogo from "../../assets/logos/samiya_logo.png";
 
 const Footer = () => {
@@ -6,19 +8,21 @@ const Footer = () => {
             <img src={samiyaLogo} alt="Samiya logo" />
             <ul>
                 <li>
-                    <a href="">About Samiya</a>
+                    <Link to={"/"} preventScrollReset={false}>
+                        About
+                    </Link>
                 </li>
                 <li>
-                    <a href="">Pray with us</a>
+                    <Link to={"/pray"}>Pray</Link>
                 </li>
                 <li>
-                    <a href="">Projects</a>
+                    <Link to={"/projects"}>Projects</Link>
                 </li>
                 <li>
-                    <a href="">Donate</a>
+                    <Link to={"/donate"}>Donate</Link>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <Link to={"/contact"}>Contact</Link>
                 </li>
             </ul>
         </footer>

@@ -1,3 +1,5 @@
+import { ScrollRestoration } from "react-router-dom";
+
 // comps
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
@@ -57,6 +59,7 @@ const Projects = () => {
                 </section>
             </section>
             <Footer />
+            <ScrollRestoration />
         </div>
     );
 };
