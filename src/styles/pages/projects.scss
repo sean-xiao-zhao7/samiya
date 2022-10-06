@@ -20,7 +20,17 @@
     }
 
     #projects-content {
-        padding: 10rem 5rem;
+        padding: 10rem 5rem 3rem 5rem;
+
+        &>section {
+            padding: 1rem 5rem;
+            margin-top: 1rem;
+            background-color: transparentize($color: colors.$blue-two, $amount: 0.3);
+
+            p {
+                font-size: 1.6rem;
+            }
+        }
 
         h1 {
             text-align: center;
