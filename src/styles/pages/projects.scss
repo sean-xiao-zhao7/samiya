@@ -1,125 +1,30 @@
 @use '../../styles/variables/colors.scss'as colors;
 
-#projects-first {
-    height: 100vh;
-}
-
 #projects {
     color: white;
     position: relative;
 
+    // header {
+    //     top: -2rem;
+    // }
 
     #hero {
-        color: white;
-        position: relative;
-
         &>img {
             width: 100%;
             height: 100vh;
             object-fit: cover;
             position: fixed;
             z-index: -1;
-        }
-
-        section {
-            font-size: 2.2rem;
-            padding: 70px 5% 70px 5%;
-            background-color: transparentize($color: colors.$yellow-one, $amount: 0.1);
-            // position: absolute;
-            top: 10vh;
-            left: 40vh;
-            font-weight: bold;
-            line-height: 1.5;
-            width: 40%;
-        }
-
-        & button:nth-child(1) {
-            position: absolute;
-            right: 1rem;
-            bottom: 1rem;
-        }
-
-        & button:nth-child(2) {
-            position: absolute;
-            right: 17rem;
-            bottom: 1rem;
-        }
-    }
-
-    & button {
-        background-color: colors.$tiertiary-color;
-        border: 0;
-        color: white;
-        padding: 20px 30px;
-        font-size: 2rem;
-        font-weight: bold;
-        cursor: pointer;
-
-        &:hover {
-            background-color: transparentize(colors.$tiertiary-color, 0.2);
-        }
-    }
-
-    #intro {
-        display: flex;
-        flex-direction: row;
-        height: 100vh;
-
-        &>section {
-            margin: 10vh;
-            font-size: 2rem;
-        }
-
-        img {
-            width: 100vw;
-            object-fit: cover;
-            padding-top: 1rem;
-        }
-    }
-
-    #whatwillyoudo {
-        height: 100vh;
-        position: relative;
-        margin-top: 1rem;
-
-        &>img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
             top: 0;
-            left: 0;
-        }
-
-        section {
-            position: absolute;
-            background-color: colors.$four-color-transparent;
-            margin: 10vh;
-            padding: 10vh;
-            width: 60%;
-        }
-
-        & button {
-            position: absolute;
-            right: 1rem;
-            bottom: 1rem;
         }
     }
 
-    #newsletter {
-        display: flex;
-        flex-direction: row;
-        height: 100vh;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+    #projects-content {
+        padding: 10rem 5rem;
 
-        img {
-            width: 100%;
-            object-fit: cover;
-        }
-
-        &>section {
-            margin: 10vh;
-            font-size: 2rem;
+        h1 {
+            text-align: center;
         }
     }
+
 }
