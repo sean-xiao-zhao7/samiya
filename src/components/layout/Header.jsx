@@ -8,7 +8,7 @@ const Header = ({ introElementRef }) => {
     if (introElementRef) {
         aboutUsEl = (
             <a
-                href="#"
+                href="/#"
                 onClick={(e) => {
                     e.preventDefault();
                     introElementRef.current.scrollIntoView({
