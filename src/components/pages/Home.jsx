@@ -24,7 +24,14 @@ const Home = () => {
                         committed to church planting among the poor and the
                         marginalized in unreached nations around the world.
                         <button type="button">Learn more</button>
-                        <button type="button">Support us</button>
+                        <button type="button">
+                            <a
+                                href="https://www.paypal.com/donate/?hosted_button_id=32LAEJ9YFPLZE"
+                                target="_blank"
+                            >
+                                Support us
+                            </a>
+                        </button>
                     </section>
                 </section>
             </div>
@@ -62,7 +69,14 @@ const Home = () => {
                         their distress and to keep oneself from being polluted
                         by the world.”
                     </h1>
-                    <button type="button">Support us!</button>
+                    <button type="button">
+                        <a
+                            href="https://www.paypal.com/donate/?hosted_button_id=32LAEJ9YFPLZE"
+                            target="_blank"
+                        >
+                            Support us!
+                        </a>
+                    </button>
                 </section>
                 <img src={horizontalSitting} alt="samiya people" />
             </section>

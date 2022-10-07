@@ -37,7 +37,7 @@
 
         & button:nth-child(2) {
             position: absolute;
-            right: 12rem;
+            right: 17rem;
             bottom: 1rem;
 
             span {
@@ -64,6 +64,11 @@
 
         &:hover {
             background-color: transparentize(colors.$blue-three, 0.2);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
         }
     }
 

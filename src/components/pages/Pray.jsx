@@ -20,9 +20,18 @@ const Pray = () => {
                         learn more about the world and rejoice in lives changed
                         by the gospel.
                         <button type="button">
-                            Current prayers <span>⇩</span>
+                            <a href="#current-prayers">
+                                Current prayers <span>⇩</span>
+                            </a>
                         </button>
-                        <button type="button">Donate</button>
+                        <button type="button">
+                            <a
+                                href="https://www.paypal.com/donate/?hosted_button_id=32LAEJ9YFPLZE"
+                                target="_blank"
+                            >
+                                Support us!
+                            </a>
+                        </button>
                     </section>
                 </section>
             </div>
