@@ -38,6 +38,7 @@ const Header = ({ introElementRef }) => {
                     <a
                         href="https://www.paypal.com/donate/?hosted_button_id=32LAEJ9YFPLZE"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Donate
                     </a>

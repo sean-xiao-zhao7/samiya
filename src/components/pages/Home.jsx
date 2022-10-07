@@ -28,6 +28,7 @@ const Home = () => {
                             <a
                                 href="https://www.paypal.com/donate/?hosted_button_id=32LAEJ9YFPLZE"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 Support us
                             </a>
@@ -73,6 +74,7 @@ const Home = () => {
                         <a
                             href="https://www.paypal.com/donate/?hosted_button_id=32LAEJ9YFPLZE"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Support us!
                         </a>
