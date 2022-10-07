@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/samiyasite/static/css/main.54758f70.css",
-    "main.js": "/samiyasite/static/js/main.82ca2102.js",
-    "static/media/home_wide.png": "/samiyasite/static/media/home_wide.f193db83126847f4f102.png",
-    "static/media/horizontal_praying.png": "/samiyasite/static/media/horizontal_praying.2c3cf7694e253e7d8ac3.png",
-    "static/media/vertical_sitting.png": "/samiyasite/static/media/vertical_sitting.026c3d00e464b787f3da.png",
-    "static/media/vertical_sitting_yellow.png": "/samiyasite/static/media/vertical_sitting_yellow.4bbafaf3bc901778ab14.png",
-    "static/media/horizontal_sitting.png": "/samiyasite/static/media/horizontal_sitting.65aaee698658fd7c469b.png",
-    "static/media/horizontal_contact.png": "/samiyasite/static/media/horizontal_contact.c018781744f8b8882883.png",
-    "static/media/horizontal_projects.png": "/samiyasite/static/media/horizontal_projects.27131fef7940527c8b58.png",
-    "index.html": "/samiyasite/index.html",
-    "main.54758f70.css.map": "/samiyasite/static/css/main.54758f70.css.map",
-    "main.82ca2102.js.map": "/samiyasite/static/js/main.82ca2102.js.map"
+    "main.css": "/samiya/static/css/main.54758f70.css",
+    "main.js": "/samiya/static/js/main.ee12dfcf.js",
+    "static/media/home_wide.png": "/samiya/static/media/home_wide.f193db83126847f4f102.png",
+    "static/media/horizontal_praying.png": "/samiya/static/media/horizontal_praying.2c3cf7694e253e7d8ac3.png",
+    "static/media/vertical_sitting.png": "/samiya/static/media/vertical_sitting.026c3d00e464b787f3da.png",
+    "static/media/vertical_sitting_yellow.png": "/samiya/static/media/vertical_sitting_yellow.4bbafaf3bc901778ab14.png",
+    "static/media/horizontal_sitting.png": "/samiya/static/media/horizontal_sitting.65aaee698658fd7c469b.png",
+    "static/media/horizontal_contact.png": "/samiya/static/media/horizontal_contact.c018781744f8b8882883.png",
+    "static/media/horizontal_projects.png": "/samiya/static/media/horizontal_projects.27131fef7940527c8b58.png",
+    "index.html": "/samiya/index.html",
+    "main.54758f70.css.map": "/samiya/static/css/main.54758f70.css.map",
+    "main.ee12dfcf.js.map": "/samiya/static/js/main.ee12dfcf.js.map"
   },
   "entrypoints": [
     "static/css/main.54758f70.css",
-    "static/js/main.82ca2102.js"
+    "static/js/main.ee12dfcf.js"
   ]
 }
