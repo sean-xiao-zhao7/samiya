@@ -1,4 +1,6 @@
 @use '../../styles/variables/colors.scss'as colors;
+@use '../../styles/variables/screen-sizes.scss'as screen-sizes;
+
 
 #projects {
     color: white;
@@ -26,6 +28,10 @@
             padding: 1rem 5rem;
             margin-top: 1rem;
             background-color: transparentize($color: colors.$blue-two, $amount: 0.3);
+
+            @media only screen and (max-width: screen-sizes.$width-tablet) {
+                margin-top: 7rem;
+            }
 
             p {
                 font-size: 1.6rem;
