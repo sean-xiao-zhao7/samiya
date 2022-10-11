@@ -1,4 +1,5 @@
 @use '../../styles/variables/colors.scss'as colors;
+@use '../../styles/variables/screen-sizes.scss'as screen-sizes;
 
 #home-first {
     height: 100vh;
@@ -17,6 +18,10 @@
             width: 100%;
             height: 100vh;
             object-fit: cover;
+
+            @media only screen and (max-width: screen-sizes.$width-tablet) {
+                width: 100vw;
+            }
         }
 
         section {
@@ -29,6 +34,11 @@
             font-weight: bold;
             line-height: 1.5;
             width: 55%;
+
+            @media only screen and (max-width: screen-sizes.$width-tablet) {
+                width: auto;
+                left: 0;
+            }
         }
 
         & button:nth-child(1) {
@@ -68,13 +78,21 @@
         flex-direction: row;
         height: 100vh;
 
+        @media only screen and (max-width: screen-sizes.$width-tablet) {
+            height: auto;
+        }
+
         &>section {
             margin: 10vh;
             font-size: 2rem;
+
+            @media only screen and (max-width: screen-sizes.$width-tablet) {
+                margin: 2rem;
+            }
         }
 
         img {
-            width: 100vw;
+            width: 50vw;
             object-fit: cover;
             padding-top: 1rem;
         }
@@ -99,6 +117,11 @@
             margin: 10vh;
             padding: 10vh;
             width: 60%;
+
+            @media only screen and (max-width: screen-sizes.$width-tablet) {
+                width: auto;
+                margin: 2rem;
+            }
         }
 
         & button {
@@ -118,11 +141,19 @@
         img {
             width: 100%;
             object-fit: cover;
+
+            @media only screen and (max-width: screen-sizes.$width-tablet) {
+                width: 50vw;
+            }
         }
 
         &>section {
             margin: 10vh;
             font-size: 2rem;
+
+            @media only screen and (max-width: screen-sizes.$width-tablet) {
+                margin: 2rem;
+            }
         }
     }
 }

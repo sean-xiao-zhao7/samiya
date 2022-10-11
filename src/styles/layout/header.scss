@@ -1,4 +1,5 @@
 @use '../variables/colors.scss'as colors;
+@use '../../styles/variables/screen-sizes.scss'as screen-sizes;
 
 header {
     display: flex;
@@ -21,6 +22,10 @@ header {
         flex-direction: row;
         align-items: center;
         text-shadow: 2px 2px 1px #5e8854;
+
+        @media only screen and (max-width: screen-sizes.$width-tablet) {
+            flex-wrap: wrap;
+        }
 
         li {
             height: 50%;
