@@ -9,9 +9,18 @@ header {
     top: 0;
     z-index: 1;
 
+    @media only screen and (max-width: screen-sizes.$width-phone) {
+        align-items: flex-start;
+    }
 
     &>img {
         height: 20vh;
+
+        @media only screen and (max-width: screen-sizes.$width-phone) {
+            height: auto;
+            width: auto;
+            object-fit: contain;
+        }
     }
 
     ul {
@@ -27,9 +36,19 @@ header {
             flex-wrap: wrap;
         }
 
+        @media only screen and (max-width: screen-sizes.$width-phone) {
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: flex-end;
+        }
+
         li {
             height: 50%;
             background: transparentize(colors.$primary-color, 0.4);
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                width: 60%;
+            }
 
             a {
                 color: white;
@@ -45,6 +64,11 @@ header {
 
                 &:hover {
                     text-decoration: none;
+                }
+
+                @media only screen and (max-width: screen-sizes.$width-phone) {
+                    font-size: 1.5rem;
+                    padding: 5px 10px;
                 }
             }
 
