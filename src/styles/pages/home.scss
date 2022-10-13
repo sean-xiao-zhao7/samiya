@@ -57,6 +57,7 @@
             @media only screen and (max-width: screen-sizes.$width-phone) {
                 position: static;
                 margin-bottom: 0.5rem;
+                margin-top: 1rem;
             }
         }
 
@@ -90,7 +91,7 @@
         }
 
         @media only screen and (max-width: screen-sizes.$width-phone) {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
     }
 
@@ -99,8 +100,9 @@
         flex-direction: row;
         height: 100vh;
 
-        @media only screen and (max-width: screen-sizes.$width-tablet) {
+        @media only screen and (max-width: screen-sizes.$width-phone) {
             height: auto;
+            flex-direction: column;
         }
 
         &>section {
@@ -110,12 +112,27 @@
             @media only screen and (max-width: screen-sizes.$width-tablet) {
                 margin: 2rem;
             }
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                margin: 0 2rem;
+            }
         }
 
         img {
             width: 50vw;
             object-fit: cover;
             padding-top: 1rem;
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                font-size: 1.5rem;
+                width: auto;
+            }
+        }
+
+        h1 {
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                font-size: 1.5rem;
+            }
         }
     }
 
@@ -123,6 +140,10 @@
         height: 100vh;
         position: relative;
         margin-top: 1rem;
+
+        @media only screen and (max-width: screen-sizes.$width-phone) {
+            height: auto;
+        }
 
         &>img {
             width: 100%;
@@ -143,12 +164,24 @@
                 width: auto;
                 margin: 2rem;
             }
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                padding: 2rem;
+                padding-bottom: 5rem;
+                position: relative;
+            }
         }
 
         & button {
             position: absolute;
             right: 1rem;
             bottom: 1rem;
+        }
+
+        h1 {
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                font-size: 1.5rem;
+            }
         }
     }
 
@@ -159,12 +192,17 @@
         padding-top: 1rem;
         padding-bottom: 1rem;
 
+        @media only screen and (max-width: screen-sizes.$width-phone) {
+            height: auto;
+            flex-direction: column-reverse;
+        }
+
         img {
             width: 100%;
             object-fit: cover;
 
-            @media only screen and (max-width: screen-sizes.$width-tablet) {
-                width: 50vw;
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                width: auto;
             }
         }
 
@@ -174,6 +212,12 @@
 
             @media only screen and (max-width: screen-sizes.$width-tablet) {
                 margin: 2rem;
+            }
+        }
+
+        h1 {
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                font-size: 1.5rem;
             }
         }
     }
