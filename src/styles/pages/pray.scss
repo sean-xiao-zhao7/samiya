@@ -44,6 +44,16 @@
                 @media only screen and (max-width: screen-sizes.$width-tablet) {
                     margin-top: 0rem;
                 }
+
+                @media only screen and (max-width: screen-sizes.$width-phone) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                font-size: 1.5rem;
+                padding: 2rem;
+                top: 25vh;
             }
         }
 
@@ -55,12 +65,21 @@
             span {
                 font-size: 1.5rem;
             }
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                position: static;
+                display: flex;
+            }
         }
 
         & button:nth-child(3) {
             position: absolute;
             right: 1rem;
             bottom: 1rem;
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                position: static;
+            }
         }
 
     }
@@ -81,6 +100,23 @@
         a {
             text-decoration: none;
             color: white;
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        @media only screen and (max-width: screen-sizes.$width-phone) {
+            font-size: 1.4rem;
+            padding: 1rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
         }
     }
 
@@ -89,8 +125,16 @@
         flex-direction: row;
         background-color: transparentize($color: colors.$blue-two, $amount: 0.1);
 
+        @media only screen and (max-width: screen-sizes.$width-phone) {
+            flex-direction: column;
+        }
+
         h1 {
             margin-top: 0;
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                font-size: 1.5rem;
+            }
         }
 
         &>section {
@@ -99,6 +143,11 @@
 
             @media only screen and (max-width: screen-sizes.$width-tablet) {
                 margin: 3rem;
+            }
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                font-size: 1.5rem;
+                margin: 2rem;
             }
         }
     }
@@ -109,13 +158,40 @@
         background-color: transparentize($color: colors.$blue-two, $amount: 0.1);
         padding: 0 10vh 10vh 10vh;
 
+        @media only screen and (max-width: screen-sizes.$width-phone) {
+            padding: 2rem;
+            padding-top: 0;
+        }
+
         h1 {
             padding-top: 5vh;
             border-top: solid 1px colors.$blue-three;
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                font-size: 1.5rem;
+                padding-top: 5vh;
+                margin-top: 0;
+            }
         }
 
         &>section {
             font-size: 2rem;
+
+            @media only screen and (max-width: screen-sizes.$width-phone) {
+                font-size: 1.5rem;
+            }
+
+            ul {
+                @media only screen and (max-width: screen-sizes.$width-phone) {
+                    padding-left: 1rem;
+                }
+
+                li {
+                    @media only screen and (max-width: screen-sizes.$width-phone) {
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
         }
     }
 }
