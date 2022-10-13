@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/samiya/static/css/main.ca04225a.css",
+    "main.css": "/samiya/static/css/main.2ad6446c.css",
     "main.js": "/samiya/static/js/main.2c2e5bad.js",
     "static/media/home_wide.png": "/samiya/static/media/home_wide.f193db83126847f4f102.png",
     "static/media/horizontal_praying.png": "/samiya/static/media/horizontal_praying.2c3cf7694e253e7d8ac3.png",
@@ -10,11 +10,11 @@
     "static/media/horizontal_contact.png": "/samiya/static/media/horizontal_contact.c018781744f8b8882883.png",
     "static/media/horizontal_projects.png": "/samiya/static/media/horizontal_projects.27131fef7940527c8b58.png",
     "index.html": "/samiya/index.html",
-    "main.ca04225a.css.map": "/samiya/static/css/main.ca04225a.css.map",
+    "main.2ad6446c.css.map": "/samiya/static/css/main.2ad6446c.css.map",
     "main.2c2e5bad.js.map": "/samiya/static/js/main.2c2e5bad.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca04225a.css",
+    "static/css/main.2ad6446c.css",
     "static/js/main.2c2e5bad.js"
   ]
 }
