@@ -23,7 +23,9 @@ const Home = () => {
                         Samiya International is a global mission agency
                         committed to church planting among the poor and the
                         marginalized in unreached nations around the world.
-                        <button type="button">Learn more</button>
+                        <button type="button">
+                            <a href="#intro">Learn more</a>
+                        </button>
                         <button type="button">
                             <a
                                 href="https://www.paypal.com/donate/?hosted_button_id=32LAEJ9YFPLZE"
