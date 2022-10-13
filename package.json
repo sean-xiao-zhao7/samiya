@@ -22,7 +22,7 @@
         "eject": "react-scripts eject",
         "predeploy": "npm run build && npm run mk-samiya-dir",
         "mk-samiya-dir": "mkdir build/samiya && mv build/static build/samiya",
-        "deploy": "gh-pages -d build"
+        "deploy": "cp CNAME build/ && gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
