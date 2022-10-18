@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/samiya/static/css/main.2ad6446c.css",
-    "main.js": "/samiya/static/js/main.2c2e5bad.js",
-    "static/media/home_wide.png": "/samiya/static/media/home_wide.f193db83126847f4f102.png",
-    "static/media/horizontal_praying.png": "/samiya/static/media/horizontal_praying.2c3cf7694e253e7d8ac3.png",
-    "static/media/vertical_sitting.png": "/samiya/static/media/vertical_sitting.026c3d00e464b787f3da.png",
-    "static/media/vertical_sitting_yellow.png": "/samiya/static/media/vertical_sitting_yellow.4bbafaf3bc901778ab14.png",
-    "static/media/horizontal_sitting.png": "/samiya/static/media/horizontal_sitting.65aaee698658fd7c469b.png",
-    "static/media/horizontal_contact.png": "/samiya/static/media/horizontal_contact.c018781744f8b8882883.png",
-    "static/media/horizontal_projects.png": "/samiya/static/media/horizontal_projects.27131fef7940527c8b58.png",
+    "main.css": "/samiya/static/css/main.6bf130df.css",
+    "main.js": "/samiya/static/js/main.0abe9b3d.js",
+    "static/media/horizontal_contact.jpeg": "/samiya/static/media/horizontal_contact.bcc429a84571c5415f12.jpeg",
+    "static/media/horizontal_praying.jpeg": "/samiya/static/media/horizontal_praying.1352f90ac9c8ff3f7d71.jpeg",
+    "static/media/horizontal_sitting.jpeg": "/samiya/static/media/horizontal_sitting.f55aa4136cb14f84cc3f.jpeg",
+    "static/media/horizontal_projects.jpeg": "/samiya/static/media/horizontal_projects.5d7710f12abc5b2de04e.jpeg",
+    "static/media/home_wide.jpeg": "/samiya/static/media/home_wide.ceaf5c5a14897aef16a3.jpeg",
+    "static/media/vertical_sitting.jpeg": "/samiya/static/media/vertical_sitting.16b664c1c2386b05ae6e.jpeg",
+    "static/media/vertical_sitting_yellow.jpeg": "/samiya/static/media/vertical_sitting_yellow.232cb94773696ed27eca.jpeg",
     "index.html": "/samiya/index.html",
-    "main.2ad6446c.css.map": "/samiya/static/css/main.2ad6446c.css.map",
-    "main.2c2e5bad.js.map": "/samiya/static/js/main.2c2e5bad.js.map"
+    "main.6bf130df.css.map": "/samiya/static/css/main.6bf130df.css.map",
+    "main.0abe9b3d.js.map": "/samiya/static/js/main.0abe9b3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ad6446c.css",
-    "static/js/main.2c2e5bad.js"
+    "static/css/main.6bf130df.css",
+    "static/js/main.0abe9b3d.js"
   ]
 }
