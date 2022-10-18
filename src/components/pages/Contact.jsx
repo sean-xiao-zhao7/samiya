@@ -5,7 +5,7 @@ import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 
 // images
-import horizontalContact from "../../assets/photos/horizontal_contact.png";
+import horizontalContact from "../../assets/photos/horizontal_contact.jpeg";
 
 const Contact = () => {
     return (

@@ -5,7 +5,7 @@ import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 
 // images
-import horizontalProjects from "../../assets/photos/horizontal_projects.png";
+import horizontalProjects from "../../assets/photos/horizontal_projects.jpeg";
 
 const Projects = () => {
     return (

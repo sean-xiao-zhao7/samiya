@@ -5,10 +5,10 @@ import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 
 // images
-import verticalSitting from "../../assets/photos/vertical_sitting.png";
-import verticalSittingYellow from "../../assets/photos/vertical_sitting_yellow.png";
-import homeWide from "../../assets/photos/home_wide.png";
-import horizontalSitting from "../../assets/photos/horizontal_sitting.png";
+import verticalSitting from "../../assets/photos/vertical_sitting.jpeg";
+import verticalSittingYellow from "../../assets/photos/vertical_sitting_yellow.jpeg";
+import homeWide from "../../assets/photos/home_wide.jpeg";
+import horizontalSitting from "../../assets/photos/horizontal_sitting.jpeg";
 
 const Home = () => {
     const introElementRef = useRef(null);

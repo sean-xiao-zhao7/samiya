@@ -5,7 +5,7 @@ import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 
 // images
-import horizontalPlaying from "../../assets/photos/horizontal_praying.png";
+import horizontalPlaying from "../../assets/photos/horizontal_praying.jpeg";
 
 const Pray = () => {
     return (
