@@ -23,7 +23,7 @@
         "samiya-build": "npm run build && npm run mk-samiya-dir",
         "mk-samiya-dir": "mkdir build/samiya && mv build/static build/samiya",
         "predeploy": "npm run samiya-build && cp CNAME build/",
-        "deploy": "gh-pages -d build"
+        "deploy": "mv build/assets build/samiya && gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
