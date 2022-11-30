@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "/samiya/static/css/main.6bf130df.css",
-    "main.js": "/samiya/static/js/main.76f3b9d6.js",
+    "main.js": "/samiya/static/js/main.add6b3be.js",
     "static/media/horizontal_contact.jpeg": "/samiya/static/media/horizontal_contact.bcc429a84571c5415f12.jpeg",
     "static/media/horizontal_praying.jpeg": "/samiya/static/media/horizontal_praying.1352f90ac9c8ff3f7d71.jpeg",
+    "static/media/horizontal_sitting.jpeg": "/samiya/static/media/horizontal_sitting.f55aa4136cb14f84cc3f.jpeg",
     "static/media/horizontal_projects.jpeg": "/samiya/static/media/horizontal_projects.5d7710f12abc5b2de04e.jpeg",
+    "static/media/home_wide.jpeg": "/samiya/static/media/home_wide.ceaf5c5a14897aef16a3.jpeg",
+    "static/media/vertical_sitting.jpeg": "/samiya/static/media/vertical_sitting.16b664c1c2386b05ae6e.jpeg",
+    "static/media/vertical_sitting_yellow.jpeg": "/samiya/static/media/vertical_sitting_yellow.232cb94773696ed27eca.jpeg",
     "index.html": "/samiya/index.html",
     "main.6bf130df.css.map": "/samiya/static/css/main.6bf130df.css.map",
-    "main.76f3b9d6.js.map": "/samiya/static/js/main.76f3b9d6.js.map"
+    "main.add6b3be.js.map": "/samiya/static/js/main.add6b3be.js.map"
   },
   "entrypoints": [
     "static/css/main.6bf130df.css",
-    "static/js/main.76f3b9d6.js"
+    "static/js/main.add6b3be.js"
   ]
 }
