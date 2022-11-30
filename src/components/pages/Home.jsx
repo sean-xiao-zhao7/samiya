@@ -93,7 +93,15 @@ const Home = () => {
                         Prayers for supporting Samiya International's church
                         planting efforts worldwide.
                     </h1>
-                    <button type="button">Subscribe</button>
+                    <button type="button">
+                        <a
+                            href="https://www.paypal.com/donate/?hosted_button_id=32LAEJ9YFPLZE"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Support us!
+                        </a>
+                    </button>
                 </section>
                 <img src={verticalSittingYellow} alt="samiya people sitting" />
             </section>

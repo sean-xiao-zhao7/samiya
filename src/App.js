@@ -1,7 +1,7 @@
 import { ScrollRestoration } from "react-router-dom";
 
 // pages
-// import Home from "./components/pages/Home";
+import Home from "./components/pages/Home";
 
 // styles
 import "./App.scss";
@@ -9,7 +9,7 @@ import "./App.scss";
 function App() {
     return (
         <>
-            {/* <Home /> */}
+            <Home />
             <ScrollRestoration />
         </>
     );
